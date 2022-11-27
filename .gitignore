@@ -1,0 +1,5 @@
+*.py[cod]
+*-backups/
+output/
+output.zip
+*.bak
