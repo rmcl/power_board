@@ -10,7 +10,7 @@ Changelog
 -----
 
 v2
-* Dropped Schotty diode on Vin.
+* Dropped schottky diode on Vin.
 * Added jumpers for A0 & A1
 
 
