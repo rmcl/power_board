@@ -17,3 +17,4 @@ v2
 Todo
 ----
 * Make the MPM3610 show up in the 3d model
+* Add a header pin for the MPM3610A's enable (en) pin.
