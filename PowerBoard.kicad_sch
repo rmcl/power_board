@@ -579,6 +579,7 @@
     )
   )
 
+
   (junction (at 88.9 85.09) (diameter 0) (color 0 0 0 0)
     (uuid 04a4ae35-7fbe-4829-a2f0-1e9dcc48337f)
   )
@@ -882,7 +883,7 @@
     (property "Value" "22uF" (id 1) (at 252.73 81.2862 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 250.19 80.01 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 250.19 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 250.19 80.01 0)
@@ -1047,7 +1048,7 @@
     (property "Value" "10K" (id 1) (at 134.62 90.1699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 132.08 88.9 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 132.08 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 88.9 0)
@@ -1151,7 +1152,7 @@
     (property "Value" "10K" (id 1) (at 124.46 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 123.19 88.9 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 123.19 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 88.9 0)
@@ -1170,7 +1171,7 @@
     (property "Value" "10uF" (id 1) (at 171.45 76.2062 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 168.91 74.93 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 168.91 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 168.91 74.93 0)
@@ -1405,10 +1406,10 @@
       (reference "A1") (unit 1) (value "A1") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/8e9d8fc8-7b5a-43f4-8fd7-f0b3c3cdc133"
-      (reference "C1") (unit 1) (value "10uF") (footprint "")
+      (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/02d81d42-15f4-4cda-b8eb-2c773fa1cca1"
-      (reference "C2") (unit 1) (value "22uF") (footprint "")
+      (reference "C2") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/02dbc2e1-68de-439f-bfec-4d6d66d36a0f"
       (reference "CURRENT_MAIN1") (unit 1) (value "INA219BxD") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
@@ -1429,10 +1430,10 @@
       (reference "R4") (unit 1) (value "53.6K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/8b72dcf0-166b-4eaf-90d8-721d7ec31645"
-      (reference "R5") (unit 1) (value "10K") (footprint "")
+      (reference "R5") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4cde5e32-d245-434b-a5dc-3465a9af0c92"
-      (reference "R6") (unit 1) (value "10K") (footprint "")
+      (reference "R6") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/46e4de66-b5e6-4fb5-9115-917ae09711e5"
       (reference "R_SHUNT1") (unit 1) (value "100mOhms") (footprint "Resistor_SMD:R_2512_6332Metric")
